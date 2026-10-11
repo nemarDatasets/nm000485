@@ -1,0 +1,83 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Aliette Lochy": {},
+    "Corentin Jacques": {},
+    "Louis Maillard": {},
+    "Sophie Colnat-Coulbois": {},
+    "Bruno Rossion": {},
+    "Jacques Jonas": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5061/dryad.6s39h64",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1073/pnas.1718987115",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000485",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000485",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "s500-generic-45: Letter and word selective SEEG responses in the ventral occipito-temporal cortex, fast periodic visual stimulation (Lochy et al., 2018) (derivative)",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "14.47 GB (333 files)"
+  ],
+  "formats": [
+    ".bmp",
+    ".eeg",
+    ".json",
+    ".lw5",
+    ".mat",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk",
+    ".xlsx"
+  ],
+  "description": "Derivative stereo-EEG (SEEG) dataset from 37 patients with refractory epilepsy recorded at the University Hospital of Nancy during fast periodic visual stimulation. Words were presented at 2 Hz among pseudofonts, nonwords or pseudowords at 10 Hz, to measure letter- and word-selective responses in the ventral occipito-temporal cortex. The release contains the authors' Letswave-processed, 40 Hz low-pass filtered sequences repackaged in BIDS (BrainVision), with Talairach and MNI electrode coordinates.",
+  "methods_description": "Intracerebral SEEG (with some scalp EEG, ECG and trigger channels) was recorded with Micromed systems during fast periodic visual stimulation: 10 Hz base stimulation of pseudofonts, nonwords or pseudowords, with a real word every fifth item (2 Hz). Authors' preprocessing in Letswave 5 included a 40 Hz Butterworth low-pass filter (order 4), cutting sequences from 2 s after onset to about 68 s, and merging sequences per condition.",
+  "keywords": [
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "intracerebral recordings"
+    },
+    {
+      "term": "fast periodic visual stimulation"
+    },
+    {
+      "term": "visual word form area"
+    },
+    {
+      "term": "Reading",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011932"
+    },
+    {
+      "term": "ventral occipito-temporal cortex"
+    }
+  ],
+  "source_hash": "f6fee782effe1e5532d3b2545687062f356784aa10dc0b9359612faf33c271c9"
+}
