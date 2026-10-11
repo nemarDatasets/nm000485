@@ -1,0 +1,13 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-P005_task-wordspseudofont_run-1_ieeg.eeg
+
+[Marker Infos]
+Mk1=New Segment,,1,1,0
+Mk2=New Segment,sequence 2,34797,1,0
+Mk3=New Segment,sequence 3,69593,1,0
+Mk4=New Segment,sequence 4,104389,1,0
+Mk5=New Segment,sequence 5,139185,1,0
+Mk6=New Segment,sequence 6,173981,1,0

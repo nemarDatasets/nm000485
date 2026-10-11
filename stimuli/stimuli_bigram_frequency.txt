@@ -1,0 +1,42 @@
+Words	bigrFreq		PseudoWords	bigrFreq		NonWords	bigrFreq
+amour	11495		oruma	6873		mruao	1518
+arbre	11752		erbra	16774		rrbae	2581
+avion	12619		noiva	4325		nvioa	4848
+avril	8984		vrali	13296		rvlia	5484
+canal	17102		ancal	16692		aacln	2619
+chair	9701		rihac	8326		rhcia	3102
+chien	15586		nehic	6426		hncei	4113
+chute	10546		cethu	4497		uehtc	3875
+divan	12346		vadin	10039		iadnv	2692
+encre	16568		ercen	19293		rcnee	4007
+enfer	17911		efern	11333		eerfn	10123
+envie	12447		eivne	4482		ieenv	11285
+genou	14299		ugone	11828		ueogn	5831
+genre	15575		egren	14746		eerng	11566
+glace	7414		gecal	9659		aelgc	1725
+grain	14688		gniar	8391		iagrn	5276
+jambe	3170		bemja	4116		bmjae	249
+merci	17177		icrem	12803		rmcei	2854
+nuque	8037		euqun	7500		uueqn	3776
+odeur	10045		ruedo	5450		rdueo	5301
+orage	12432		egaro	8660		rgoae	1516
+oubli	9770		ulibo	7692		lbuio	5175
+plume	7452		elpum	2958		uemlp	7131
+roman	16468		namor	8380		aomrn	2629
+seuil	11203		eusli	8649		iuesl	5878
+suite	11250		etius	9801		tseiu	4036
+train	16726		nitar	12773		nrtia	9015
+union	13671		noinu	8621		nniuo	4500
+usage	8357		segua	5187		uaesg	2707
+veuve	6339		evuve	2187		ueevv	4100
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							

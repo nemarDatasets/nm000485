@@ -1,0 +1,15 @@
+{
+  "age": {
+    "Description": "Not given per participant in the release",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Not given per participant in the release"
+  },
+  "n_seeg_channels": {
+    "Description": "Channels typed SEEG in this participant's files"
+  },
+  "n_contacts_with_coordinates": {
+    "Description": "SEEG channels whose name matches a row of the participant's coordinate xlsx"
+  }
+}

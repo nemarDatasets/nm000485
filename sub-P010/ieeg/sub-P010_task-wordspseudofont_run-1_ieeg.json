@@ -1,0 +1,24 @@
+{
+  "TaskName": "wordspseudofont",
+  "TaskDescription": "Fast periodic visual stimulation at 10 Hz of pseudofonts with a word every 5th item (2 Hz) (VC-W; README/article).",
+  "SamplingFrequency": 512.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "Letswave": {
+      "Description": "Low-pass 40 Hz, Butterworth order 4 (README); Letswave history of this file: "
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "n/a (not stated per participant in the release)",
+  "Manufacturer": "Micromed",
+  "RecordingType": "epoched",
+  "EpochLength": 65.962890625,
+  "RecordingDuration": 263.8515625,
+  "SEEGChannelCount": 156,
+  "EEGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "ECOGChannelCount": 0,
+  "ElectricalStimulation": false
+}

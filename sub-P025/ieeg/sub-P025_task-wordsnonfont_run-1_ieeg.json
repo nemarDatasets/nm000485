@@ -1,0 +1,24 @@
+{
+  "TaskName": "wordsnonfont",
+  "TaskDescription": "Fast periodic visual stimulation at 10 Hz of nonwords (non-fonts) with a word every 5th item (2 Hz) (NW-W).",
+  "SamplingFrequency": 512.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "Letswave": {
+      "Description": "Low-pass 40 Hz, Butterworth order 4 (README); Letswave history of this file: "
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "n/a (not stated per participant in the release)",
+  "Manufacturer": "Micromed",
+  "RecordingType": "epoched",
+  "EpochLength": 65.962890625,
+  "RecordingDuration": 131.92578125,
+  "SEEGChannelCount": 174,
+  "EEGChannelCount": 26,
+  "ECGChannelCount": 1,
+  "MiscChannelCount": 3,
+  "TriggerChannelCount": 4,
+  "ECOGChannelCount": 0,
+  "ElectricalStimulation": false
+}
