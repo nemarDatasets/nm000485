@@ -47,5 +47,7 @@
       "Name": "o5c_C_convert_nancy.py",
       "Description": "Repackaging: Letswave float32 sequences back-to-back in BrainVision (values unchanged); Letswave events to events.tsv; coordinates from the release xlsx to electrodes.tsv. Code in code/."
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000485",
+  "Version": "1.0.0"
 }
