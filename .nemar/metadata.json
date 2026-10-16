@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Lochy-2018-selective-10.1073/pnas.1718987115",
+  "title": "s500-generic-45: Letter and word selective SEEG responses in the ventral occipito-temporal cortex, fast periodic visual stimulation (Lochy et al., 2018) (derivative)",
   "description": "Stereo-EEG (intracerebral) recordings from 37 patients with refractory epilepsy who viewed fast periodic visual stimulation sequences. Words appeared at 2 Hz among pseudofonts, nonwords, or pseudowords presented at 10 Hz, which allowed letter- and word-selective responses in the left ventral occipito-temporal cortex to be measured at 2 Hz and its harmonics. This derivative release contains the authors' Letswave files, low-pass filtered at 40 Hz and cut into sequences, repackaged in BIDS with electrode coordinates in Talairach and MNI space.",
   "methods_description": "SEEG was recorded with Micromed systems from patients at the University Hospital of Nancy during fast periodic visual stimulation at 10 Hz, with a word at every fifth item (2 Hz). The authors preprocessed the data in Letswave 5 with a 40 Hz Butterworth low-pass filter (order 4). Each sequence was cut from 2 s after onset to about 68 s, an integer number of 2 Hz cycles, and sequences of one condition were merged into one file. The files were repackaged into BrainVision format with events and electrode coordinates.",
   "license": "CC0-1.0",
@@ -84,5 +84,5 @@
     ".xlsx",
     ".yml"
   ],
-  "source_hash": "878c42ede53d709c165de75df34ae97cf4aba2c27f4ee3c8a5aa53b1694f3404"
+  "source_hash": "ba39cccc871e8fa9a9fe82150c8433dcf62b015cf8a9c2989c81dfc8b50049b6"
 }
