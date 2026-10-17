@@ -40,3 +40,14 @@ THIS IS A DERIVATIVE DATASET: the release contains the authors' Letswave files, 
   month and year (day -> 01). The .lw5 headers were rewritten with scipy (savemat, MATLAB v5, compressed); their content is
   otherwise unchanged.
 - Age and sex are not given per participant in the release.
+
+## Events outside the data (corrected 2026-10-17, version 1.0.3)
+
+Up to version 1.0.2, three `events.tsv` files of sub-P013 (wordsnonfont, wordspseudofont, wordspseudoword) each held
+one or two Letswave sequence-name events (`seq_NW-W_10Hz_3`, `seq_NW-W_10Hz_5`, `seq_VC-W_10Hz_4`, `seq_PW-W_10Hz_2`,
+`seq_PW-W_10Hz_6`) whose onsets lay after the end of the recording (372-896 s in 74-148 s files): their
+`latency_in_sequence` (370-820 s) is longer than the sequence itself (`EpochLength` 74 s), so they cannot belong to
+the sequence they are listed in. These 5 rows are removed. The rule: a row is removed when its position within its
+own sequence (`onset` - (`sequence` - 1) x `EpochLength`) is negative or not shorter than `EpochLength`. No other row
+of the 111 files met it, and no row inside the data was changed. The removed rows are kept, with the file name, in
+`sourcedata/events-removed-2026-10-17/removed_events.tsv`.

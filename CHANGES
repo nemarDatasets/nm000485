@@ -1,3 +1,7 @@
+1.0.3 2026-10-17
+  - events.tsv: removed 5 Letswave sequence-name events of sub-P013 (3 files) whose onsets lay after the end of the recording; removed rows kept in sourcedata/events-removed-2026-10-17/. Signal files unchanged.
+  - README.md: section "Events outside the data".
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
