@@ -1,0 +1,35 @@
+[
+ {
+  "file": "sub-P013/ieeg/sub-P013_task-wordsnonfont_run-1_events.tsv",
+  "rows_before": 2798,
+  "removed_A_sequence_not_in_file": 0,
+  "removed_B_outside_own_sequence": 2,
+  "removed_C_block_not_at_sequence_onset": 0,
+  "rows_after": 2796,
+  "n_sequences_in_file": 2,
+  "RecordingDuration": 148.0039,
+  "sequence_start_rows_added": 0
+ },
+ {
+  "file": "sub-P013/ieeg/sub-P013_task-wordspseudofont_run-1_events.tsv",
+  "rows_before": 1399,
+  "removed_A_sequence_not_in_file": 0,
+  "removed_B_outside_own_sequence": 1,
+  "removed_C_block_not_at_sequence_onset": 0,
+  "rows_after": 1398,
+  "n_sequences_in_file": 1,
+  "RecordingDuration": 74.002,
+  "sequence_start_rows_added": 0
+ },
+ {
+  "file": "sub-P013/ieeg/sub-P013_task-wordspseudoword_run-1_events.tsv",
+  "rows_before": 2798,
+  "removed_A_sequence_not_in_file": 0,
+  "removed_B_outside_own_sequence": 2,
+  "removed_C_block_not_at_sequence_onset": 0,
+  "rows_after": 2796,
+  "n_sequences_in_file": 2,
+  "RecordingDuration": 148.0039,
+  "sequence_start_rows_added": 0
+ }
+]
