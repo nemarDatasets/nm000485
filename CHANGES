@@ -1,3 +1,8 @@
+Unreleased (branch fix-20261030, Oct 2026)
+  - derivatives/stimulus_events: second row of each duplicated trigger (1-50 us apart, same sample/sequence/code) dropped: 156,902 rows; summary columns added; script code/fix-20261030_dedup_stimulus_events.py.
+  - sub-P013 channels.tsv: EMG1/EMG2 typed EMG (header labels), ieeg.json counts.
+  - README: section 'Duplicated triggers and EMG channels'.
+
 1.0.3 2026-10-17
   - events.tsv: removed 5 Letswave sequence-name events of sub-P013 (3 files) whose onsets lay after the end of the recording; removed rows kept in sourcedata/events-removed-2026-10-17/. Signal files unchanged.
   - README.md: section "Events outside the data".

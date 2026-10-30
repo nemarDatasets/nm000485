@@ -249,8 +249,8 @@ el244	SEEG	µV	n/a	40.0	512.0	el	good	n/a	label from the Letswave header; no coo
 el245	SEEG	µV	n/a	40.0	512.0	el	good	n/a	label from the Letswave header; no coordinates for this contact in the release xlsx
 el246	SEEG	µV	n/a	40.0	512.0	el	good	n/a	label from the Letswave header; no coordinates for this contact in the release xlsx
 el247	SEEG	µV	n/a	40.0	512.0	el	good	n/a	label from the Letswave header; no coordinates for this contact in the release xlsx
-EMG1	MISC	µV	n/a	40.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
-EMG2	MISC	µV	n/a	40.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+EMG1	EMG	µV	n/a	40.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
+EMG2	EMG	µV	n/a	40.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
 MKR4+	TRIG	µV	n/a	40.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
 PULS+	MISC	µV	n/a	40.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)
 BEAT+	MISC	µV	n/a	40.0	512.0	n/a	good	n/a	non-SEEG channel recorded with the SEEG (label from the Letswave header)

@@ -66,3 +66,13 @@ n_per = round(epoch_length * sfreq)
 stim['epoch_index'] = stim['sample'] // n_per          # 0-based epoch
 stim['time_in_epoch'] = (stim['sample'] % n_per) / sfreq
 ```
+
+## Duplicated triggers and EMG channels (fix-20261030, Oct 2026)
+
+- Every trigger in the release's Letswave event lists is stored twice, 1-50 us apart (same sample, sequence and code).
+  The stimulus-level rows are in `derivatives/stimulus_events/` (see "Events and epochs"); the second row of each pair
+  was dropped there (156,902 rows; per-file counts in `stimulus_events_summary.tsv`). The raw `events.tsv` hold one
+  `sequence_start` row per sequence and are unchanged.
+- sub-P013: the channels labelled `EMG1` and `EMG2` in the Letswave header are now typed EMG (were MISC); the
+  `EMGChannelCount`/`MiscChannelCount` of the three runs were updated. Unit as for the other channels (µV assumed, see
+  above).
