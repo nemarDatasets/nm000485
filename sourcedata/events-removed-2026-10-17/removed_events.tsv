@@ -1,0 +1,6 @@
+file	reason	onset	duration	trial_type	sequence	latency_in_sequence	sample
+sub-P013/ieeg/sub-P013_task-wordsnonfont_run-1_events.tsv	B	502.697266	0	seq_NW-W_10Hz_3	1	500.697266	257381
+sub-P013/ieeg/sub-P013_task-wordsnonfont_run-1_events.tsv	B	772.367188	0	seq_NW-W_10Hz_5	2	696.365234	395452
+sub-P013/ieeg/sub-P013_task-wordspseudofont_run-1_events.tsv	B	597.337891	0	seq_VC-W_10Hz_4	1	595.337891	305837
+sub-P013/ieeg/sub-P013_task-wordspseudoword_run-1_events.tsv	B	372.195312	0	seq_PW-W_10Hz_2	1	370.195312	190564
+sub-P013/ieeg/sub-P013_task-wordspseudoword_run-1_events.tsv	B	895.699219	0	seq_PW-W_10Hz_6	2	819.697266	458598

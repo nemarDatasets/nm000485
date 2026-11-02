@@ -1,0 +1,23 @@
+{
+  "onset": {
+    "Description": "Event time in this file (sequences back-to-back)",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "0 (instantaneous Letswave event)",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Letswave event code as stored (a leading participant-code token before '_' is replaced by 'seq'). Codes are not documented in the release."
+  },
+  "sequence": {
+    "Description": "Sequence (Letswave epoch) number, 1-based"
+  },
+  "latency_in_sequence": {
+    "Description": "Letswave event latency on the sequence time axis (header xstart)",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "Sample index in this file (0-based)"
+  }
+}

@@ -17,7 +17,8 @@
   "SEEGChannelCount": 220,
   "EEGChannelCount": 26,
   "ECGChannelCount": 1,
-  "MiscChannelCount": 5,
+  "EMGChannelCount": 2,
+  "MiscChannelCount": 3,
   "TriggerChannelCount": 4,
   "ECOGChannelCount": 0,
   "ElectricalStimulation": false
