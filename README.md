@@ -76,3 +76,11 @@ stim['time_in_epoch'] = (stim['sample'] % n_per) / sfreq
 - sub-P013: the channels labelled `EMG1` and `EMG2` in the Letswave header are now typed EMG (were MISC); the
   `EMGChannelCount`/`MiscChannelCount` of the three runs were updated. Unit as for the other channels (µV assumed, see
   above).
+
+## Published events.tsv files kept in sourcedata (version 1.0.2; added Nov 2026)
+
+Updated in version 1.0.4 by the depositors of this NEMAR copy. The description of `events.tsv` above ("the Letswave events
+(code, sequence, latency) of each file") applies to the files as published up to version 1.0.2. Since then, each
+`events.tsv` holds one `sequence_start` row per sequence (see "Events and epochs"), and the Letswave event rows are in
+`derivatives/stimulus_events/`. So that no published row is lost, the 111 events.tsv files of version 1.0.2 are kept byte
+for byte, at the same relative path, in `sourcedata/events-v1.0.2/`. Accounting: 501,835 published rows = 251,433 in derivatives/stimulus_events + 5 in sourcedata/events-removed-2026-10-17 + 93,495 exact duplicates + 156,902 second rows of duplicated triggers.

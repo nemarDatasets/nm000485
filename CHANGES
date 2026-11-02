@@ -1,11 +1,15 @@
-Unreleased (branch fix-20261030, Oct 2026)
-  - derivatives/stimulus_events: second row of each duplicated trigger (1-50 us apart, same sample/sequence/code) dropped: 156,902 rows; summary columns added; script code/fix-20261030_dedup_stimulus_events.py.
-  - sub-P013 channels.tsv: EMG1/EMG2 typed EMG (header labels), ieeg.json counts.
-  - README: section 'Duplicated triggers and EMG channels'.
+1.0.4 2026-11-02
 
-1.0.4 2026-10-30
-
-  - Remove duplicated trigger rows and type EMG channels
+  - derivatives/stimulus_events: the second row of each duplicated trigger (1-50 us apart, same sample, sequence and
+    code) dropped: 156,902 rows; summary columns added; code/fix-20261030_dedup_stimulus_events.py.
+  - sub-P013 channels.tsv (3 runs): EMG1/EMG2 typed EMG (were MISC; header labels); ieeg.json channel counts.
+  - So that no published row is lost, the 111 events.tsv files of version 1.0.2 are kept byte for byte at the same
+    relative paths under sourcedata/events-v1.0.2/ (with a README). 501,835 published rows = 251,433 in
+    derivatives/stimulus_events + 5 in sourcedata/events-removed-2026-10-17 + 93,495 exact duplicates + 156,902
+    second rows of duplicated triggers.
+  - README: the published text is kept unchanged; sections "Duplicated triggers and EMG channels" and "Published
+    events.tsv files kept in sourcedata" added after it.
+  - Version 1.0.4 also contains the 1.0.3 changes below, which were never released on their own.
 
 1.0.3 2026-10-17
   - events.tsv: removed 5 Letswave sequence-name events of sub-P013 (3 files) whose onsets lay after the end of the recording; removed rows kept in sourcedata/events-removed-2026-10-17/. Signal files unchanged.
